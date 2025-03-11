@@ -1,0 +1,154 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Buddy",
+      "type": "Dog",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "weight": "65 lbs",
+      "ownerId": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1552053831-71594a27632d?q=80&w=1000&auto=format&fit=crop",
+      "description": "Friendly and energetic golden retriever who loves to play fetch."
+    },
+    {
+      "id": "2",
+      "name": "Whiskers",
+      "type": "Cat",
+      "breed": "Siamese",
+      "age": 5,
+      "weight": "10 lbs",
+      "ownerId": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?q=80&w=1000&auto=format&fit=crop",
+      "description": "Quiet and independent Siamese cat who enjoys sunbathing."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "555-123-4567"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "555-987-6543"
+    }
+  ],
+  "careInstructions": [
+    {
+      "id": "2",
+      "petId": 1,
+      "title": "Walking",
+      "description": "Walk three times a day, 20 minutes each time.",
+      "time": "7:00 AM, 12:00 PM, 7:00 PM"
+    },
+    {
+      "id": "3",
+      "petId": 2,
+      "title": "Feeding",
+      "description": "Feed twice a day, 1/4 cup of wet food each time.",
+      "time": "9:00 AM, 7:00 PM"
+    },
+    {
+      "id": "4",
+      "petId": 2,
+      "title": "Litter Box",
+      "description": "Clean litter box daily.",
+      "time": "Evening"
+    },
+    {
+      "id": "3813",
+      "title": "Feed",
+      "description": "Feed and go for a walk",
+      "time": "8:00 AM",
+      "petId": 1
+    },
+    {
+      "id": 1741731466062,
+      "title": "Pet",
+      "description": "Something",
+      "time": "8:00 AM",
+      "petId": 1741729493644
+    },
+    {
+      "id": 1741731854472,
+      "title": "zxczxc",
+      "description": "zxczxc",
+      "time": "zxczxc",
+      "petId": 1741729493644
+    }
+  ],
+  "emergencyContacts": [
+    {
+      "id": "1",
+      "petId": 1,
+      "name": "Dr. Smith",
+      "role": "Veterinarian",
+      "phone": "555-111-2222",
+      "email": "drsmith@vetclinic.com",
+      "address": "123 Vet St, Animal City"
+    },
+    {
+      "id": "66f7",
+      "name": "George Gearhart",
+      "role": "Friend",
+      "phone": "+380937001218",
+      "email": "george@gmail.com",
+      "address": "Some address",
+      "petId": 1
+    },
+    {
+      "id": 1741731546283,
+      "name": "test",
+      "role": "Neighbor",
+      "phone": "asdas",
+      "email": "asdas@asff.com",
+      "address": "asdfsdf",
+      "petId": 1741729493644
+    },
+    {
+      "id": 1741731869495,
+      "name": "zxcvx",
+      "role": "Other",
+      "phone": "zxcvxcv",
+      "email": "zxcvxvxcvxc@sdfd.sdf",
+      "address": "xddsf",
+      "petId": 1741729493644
+    }
+  ],
+  "caretakers": [
+    {
+      "id": "1",
+      "petId": 1,
+      "userId": 2,
+      "role": "Dog Walker",
+      "accessLevel": "limited"
+    },
+    {
+      "id": "2",
+      "petId": 2,
+      "name": "Mike Wilson",
+      "email": "mike@example.com",
+      "phone": "555-555-5555",
+      "role": "Cat Sitter",
+      "accessLevel": "full"
+    },
+    {
+      "id": 1741731886753,
+      "petId": 1741729493644,
+      "role": "sdfsdf",
+      "accessLevel": "full",
+      "name": "asdfs",
+      "email": "asdf@sdfdf.ci",
+      "phone": "asdfsdf"
+    }
+  ],
+  "health": {
+    "status": "up",
+    "version": "1.0.0",
+    "uptime": 100
+  }
+}
